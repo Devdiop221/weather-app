@@ -8,9 +8,7 @@ Ce document présente une application météo complète construite avec React Na
 
 * Affichage de la température actuelle, de la sensation thermique, de l'humidité, de la vitesse du vent et de la direction du vent.
 * Icônes météo dynamiques pour représenter les conditions actuelles.
-* Prévisions météorologiques détaillées pour les 7 prochains jours.
-* Possibilité de rechercher une ville par nom ou par code postal.
-* Unité de température (°C ou °F) configurable.
+* Possibilité de rechercher une ville par nom.
 * Mise à jour automatique des données météorologiques.
 
 **Architecture**
@@ -24,7 +22,7 @@ L'application est construite avec les technologies suivantes :
 L'application est composée des composants suivants :
 
 * **Écran d'accueil:** affiche les conditions météorologiques actuelles et les prévisions pour la ville actuelle.
-* **Écran de recherche:** permet de rechercher une ville par nom ou par code postal.
+* **Écran de recherche:** permet de rechercher une ville par nom.
 * **Composant Météo:** affiche les informations météorologiques pour une ville donnée.
 
 **Développement**
@@ -41,8 +39,7 @@ npm install ou yarn add
 
 4. Créer un compte OpenWeatherMap et obtenir une clé API.
 5. Configurer la clé API dans le fichier `.env.json`.
-6. Développer les différents composants de l'application.
-7. Tester l'application sur un appareil mobile.
+6. Tester l'application sur un appareil mobile.
 
 **Déploiement**
 
