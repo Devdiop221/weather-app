@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Weather App",
+    "slug": "weather-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFBD59"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.weather.forecast"
+    },
+    "android": {
+      "package": "com.weather.forecast",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFBD59",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
