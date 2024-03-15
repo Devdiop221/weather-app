@@ -29,12 +29,26 @@ L'application est composée des composants suivants :
 
 L'application peut être développée en suivant les étapes suivantes :
 
-1. Installer Expo et React Native.
+1. Installer NodeJS avec la version 18.18.2 en utilisant nvm ou en téléchargeant l'installeur à partir du site officiel.
+
+2. Installer Local Expo CLI en utilisant npm:
+
+```
+npm install -g expo-cli
+```
+ou en suivant les instructions sur le site officiel d'Expo ou en visant ce lien [https://blog.expo.dev/the-new-expo-cli-f4250d8e3421]
+
+
 2. Créer un nouveau projet Expo.
+
+```
+expo init nom-du-projet
+```
+
 3. Installer les dépendances nécessaires :
 
 ```
-npm install ou yarn add
+npm install
 ```
 
 4. Créer un compte OpenWeatherMap et obtenir une clé API.
